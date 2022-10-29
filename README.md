@@ -15,12 +15,13 @@ image
 image
 
 5. Use the slope m and the y -intercept to form the equation of the line. 6. Obtain the straight line equation Y=mX+b and plot the scatterplot.
-Program:
+~~~
+# Program:
 Program to implement univariate Linear Regression to fit a straight line using least squares.
 
-Developed by: MS.JEEVA
+Developed by: M.Hariharan
 
-RegisterNumber: 212221230040
+RegisterNumber: 212221220015
 
 import pandas as pd
 import numpy as np
@@ -60,6 +61,7 @@ plt.scatter(X,Y,color='green')
 plt.plot(X,Y_pred,color='blue')
 print("Graph")
 plt.show()
+~~~
 Output:
 Mean Values:
 
